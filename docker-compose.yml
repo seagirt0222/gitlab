@@ -12,4 +12,5 @@ services:
       - '/opt/gitlab/data:/var/opt/gitlab'
       - '/opt/gitlab/logs:/var/log/gitlab'
       - '/opt/gitlab/config:/etc/gitlab'
-      - '/opt/gitlab/backups:/var/gitlab'
+      - '/opt/gitlab/backups:/home/backup/backups'
+      
